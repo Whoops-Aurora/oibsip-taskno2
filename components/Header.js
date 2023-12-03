@@ -13,15 +13,18 @@ const Header = () => {
       <div className="flex flex-col lg:flex-row jusify-between items-center gap-y-6  py-8">
         {/* logo */}
         <Link href={'/'}>
-          <Image src={'/logo.svg'}
-                width={220}
+          <Image 
+                src={'/logo.svg'}
+                width={280}
                 height={48}
                 alt=""
                 priority={true}/>
         </Link>
+        {/* socials */}
+        <Socials />
       </div>
     </div>
-  </header>;
+  </header>
 };
 
 export default Header;
