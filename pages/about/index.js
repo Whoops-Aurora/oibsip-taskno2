@@ -1,4 +1,9 @@
 import React, {useState} from "react";
+import { GrAnalytics } from "react-icons/gr";
+import { TbBrandPython } from "react-icons/tb";
+import { VscGraphScatter } from "react-icons/vsc";
+import { FaMicrochip } from "react-icons/fa";
+
 
 // icons
 import {
@@ -37,20 +42,15 @@ const aboutData = [
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-      },
-    ],
-  },
-  {
-    title: 'awards',
-    info: [
-      {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        icons: [<FaFigma />,<SiAdobephotoshop />],
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Data Analysis',
+        icons: [<GrAnalytics />,<TbBrandPython />,<VscGraphScatter />],
+      },
+      {
+        title: 'AVR programming',
+        icons: [<FaMicrochip />],
       },
     ],
   },
@@ -58,16 +58,16 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'OpenStack - Researcher',
+        stage: '2023-2024',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Web Developer - Freelancing',
+        stage: '2022-20XX',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Intern - Oasis Infobyte',
+        stage: '2022-23',
       },
     ],
   },
@@ -75,16 +75,16 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'JSS SMPU - Pre-University',
+        stage: '2021',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Web Development - KLE Tech University',
+        stage: '2022',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Computer Science Degree - KLE Tech University',
+        stage: '2021-25',
       },
     ],
   },
@@ -100,6 +100,7 @@ import { fadeIn } from "../../variants";
 
 //counter 
 import CountUp from "react-countup";
+import Link from "next/link";
 
 const About = () => {
   const [index, setIndex] = useState(0);

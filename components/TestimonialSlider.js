@@ -2,7 +2,7 @@
 export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
-    name: 'Vaishnavi H',
+    name: 'Vaishnavi D',
     position: 'CTO Startup',
     message:
       'Adwait played a pivotal role in the project by skillfully managing and developing our website. His expertise in website development significantly contributed to establishing our online presence!',
