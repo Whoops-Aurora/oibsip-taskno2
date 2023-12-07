@@ -16,19 +16,29 @@ import { fadeIn } from '../../variants';
 //emailjs plugins
 import emailjs from '@emailjs/browser';
 
+// popup alerts for email sent/error
+import swal from 'sweetalert2';
+
 
 const Contact = () => {
   const form = useRef();
+  // alert popup calling
+  const swal = require('sweetalert2');
+
 //plugin emailjs usage
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_185b3jp', 'template_2610skt', form.current, 'u_ocmiqFbrQb6-Pd4')
       .then((result) => {
-          console.log(result.text);
+          swal.fire('Success', "Your Mail is sent! reloading site in 3..2..1", 'success');
       }, (error) => {
-          console.log(error.text);
+          swal.fire('Oops...', "Your Mail wasn't sent! reloading site in 3..2..1", 'error');
       });
+      setTimeout(() => {
+        e.target.reset();
+      }, 3000);
+      
   };
 
   return ( <div className='h-full bg-primary/30 '>
