@@ -1,8 +1,11 @@
 {
-  "name": "esportfolio",
+  "homepage": "http://Whoops-Aurora.github.io/nextjs-portfolio",
+  "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ouild",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -27,6 +30,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
   }
