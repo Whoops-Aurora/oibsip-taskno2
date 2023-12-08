@@ -2,7 +2,6 @@
 import Image from 'next/image';
 
 //web analytics
-import { Analytics } from '@vercel/analytics/react';
 
 //components
 import ParticlesContainer from '../components/ParticlesContainer';
@@ -70,7 +69,6 @@ const Home = () => {
                   className='w-full h-full max-w-[737px] max-h-[600px] absolute -bottom-32 lg:bottom-0 lg:right-[-8%]'>
         <Avatar />
       </motion.div>
-      <Analytics />
     </div>
   </div>
   );
