@@ -1,21 +1,21 @@
 // testimonial data 
 export const testimonialSlider = [
   {
-    image: './t-avt-1.png',
+    image: '/t-avt-1.png',
     name: 'Vaishnavi D',
     position: 'CTO Startup',
     message:
       'Adwait played a pivotal role in the project by skillfully managing and developing our website. His expertise in website development significantly contributed to establishing our online presence!',
   },
   {
-    image: './t-avt-2.png',
+    image: '/t-avt-2.png',
     name: 'Oasis Infobyte',
     position: 'Web Development Internship Provider',
     message:
       'Adwait is working with us currently as a Web Development Intern. (Will be edited later) ',
   },
   {
-    image: './t-avt-3.png',
+    image: '/t-avt-3.png',
     name: 'Arfahussain Sheikh',
     position: 'Content Manager',
     message:
