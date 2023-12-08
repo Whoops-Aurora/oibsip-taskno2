@@ -3,6 +3,9 @@ import '../styles/globals.css';
 // analytics by versel
 import { Analytics } from '@vercel/analytics/react';
 
+// speed insights by versel
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 //components
 import Layout from '../components/Layout';
 import Transition from '../components/Transition';
@@ -26,6 +29,7 @@ function MyApp({ Component, pageProps }) {
     </AnimatePresence>
   </Layout>
 <Analytics />
+<SpeedInsights />
 </>
   );
 }
