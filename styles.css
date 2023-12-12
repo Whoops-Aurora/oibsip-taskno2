@@ -1,0 +1,139 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+  }
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Features section styles */
+  .features {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  .feature-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .feature-card h3 {
+    margin-bottom: 10px;
+  }
+  .feature-card p {
+    color: #555;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  .testimonial {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .testimonial blockquote {
+    margin-bottom: 10px;
+  }
+  .testimonial blockquote p {
+    font-style: italic;
+    color: #555;
+  }
+  .testimonial cite {
+    font-weight: bold;
+  }
+  
+  /* CTA section styles */
+  .cta {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+  #signupForm {
+    margin-top: 20px;
+  }
+  #signupForm input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  #signupForm button {
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #signupForm button:hover {
+    background-color: #777;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  .random-image {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.8; /* Transparency */
+  }
+  .random-image img {
+    max-width: 100%;
+    border-radius: 10px; /* Rounded corners */
+  }
