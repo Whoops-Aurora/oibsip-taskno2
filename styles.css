@@ -235,3 +235,163 @@ body {
   padding: 10px;
   border-radius: 10px;
 }
+
+/* Services Section Styles */
+.services {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.services-heading {
+  margin-bottom: 30px;
+  color: #fff; /* Change text color to white */
+  background-color: rgba(204, 204, 204, 0.7); /* Add transparency to the background */
+  padding: 15px; /* Add padding for better readability */
+  border-radius: 800px; /* Add border-radius for a rounded look */
+
+}
+
+.service-card {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+}
+
+.service-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.service-details {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.service-details h3 {
+  margin-top: 0;
+}
+
+.service-details p {
+  margin-bottom: 10px;
+}
+
+.btn-blue {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+}
+
+/* Gallery Section Styles */
+.gallery {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px 0;
+}
+
+.gallery-heading {
+  margin-bottom: 30px;
+}
+
+.gallery-images img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+/* Updated Gallery Image Styles */
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  width: 30%; /* Adjust width based on layout preference */
+  margin-bottom: 20px;
+}
+
+.card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* Lightbox Modal Styles */
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+  display: block;
+  margin: auto;
+  width: 80%;
+  max-width: 800px;
+  max-height: 80%;
+}
+
+.close-btn {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ccc;
+}
+
+
+
+

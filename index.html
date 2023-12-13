@@ -2,13 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eagle Travel</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    /* Your CSS styles here */
-    /* ... */
-  </style>
 </head>
 
 <body>
@@ -122,6 +117,68 @@
   </div>
 </div>
 
+<!-- Services Offered Section -->
+<div class="services">
+  <h2 class="services-heading">Services We Offer</h2>
+  <div class="service-card">
+    <!-- Service Card 1 -->
+    <img src="https://source.unsplash.com/400x300/?travel" alt="Service 1">
+    <div class="service-details">
+      <h3>Service 1</h3>
+      <p>Description of Service 1</p>
+      <a href="#" class="btn-blue">Learn More</a>
+    </div>
+  </div>
+  <div class="service-card">
+    <!-- Service Card 2 -->
+    <img src="https://source.unsplash.com/400x300/?vacation" alt="Service 2">
+    <div class="service-details">
+      <h3>Service 2</h3>
+      <p>Description of Service 2</p>
+      <a href="#" class="btn-blue">Learn More</a>
+    </div>
+  </div>
+  <!-- Additional Service Cards -->
+</div>
+
+<div class="gallery">
+  <h2 class="gallery-heading">Gallery</h2>
+  <div class="gallery-images">
+    <div class="gallery-item">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?city" alt="City Image" onclick="openLightbox(this.src)">
+        <div class="overlay">
+          <span class="overlay-text">City Image</span>
+        </div>
+      </div>
+    </div>
+    <!-- Add more gallery items with similar structure -->
+    <div class="gallery-item">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?nature" alt="Nature Image" onclick="openLightbox(this.src)">
+        <div class="overlay">
+          <span class="overlay-text">Nature Image</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?landscape" alt="Landscape Image" onclick="openLightbox(this.src)">
+        <div class="overlay">
+          <span class="overlay-text">Landscape Image</span>
+        </div>
+      </div>
+    </div>
+    <!-- Add more gallery items with similar structure -->
+  </div>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightboxModal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img src="" alt="Lightbox Image" class="lightbox-content" id="lightboxImage">
+</div>
+
 
   </main>
 
@@ -139,11 +196,11 @@
 
     <div class="contact-form">
       <h2 style="background-color: blanchedalmond;">Contact Us</h2>
-      <form action="#" method="post">
+      <form>
         <input type="text" placeholder="Name" required>
         <input type="email" placeholder="Email" required>
         <textarea placeholder="Message" required></textarea>
-        <button type="submit">Submit</button>
+        <button>Submit</button>
       </form>
     </div>
   
