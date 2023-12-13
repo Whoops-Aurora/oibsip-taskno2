@@ -1,0 +1,4 @@
+2;;10;;30
+npm i 
+npm i @emailjs/browser
+npm install --save sweetalert2
